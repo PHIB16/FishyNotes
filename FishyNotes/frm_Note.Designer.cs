@@ -77,7 +77,7 @@
             this.btn_Min.Name = "btn_Min";
             this.btn_Min.Size = new System.Drawing.Size(75, 56);
             this.btn_Min.TabIndex = 3;
-            this.btn_Min.Text = "thing";
+            this.btn_Min.Text = "Hide";
             this.btn_Min.UseVisualStyleBackColor = true;
             this.btn_Min.Click += new System.EventHandler(this.btn_Min_Click);
             // 

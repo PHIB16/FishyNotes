@@ -39,7 +39,8 @@ namespace FishyNotes
 
             try
             {
-                TextWriter txtSave = new StreamWriter(@"C:\Users\phib1_16\Documents\" + tb_NoteName.Text + ".txt");
+
+                TextWriter txtSave = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"/Notes/" + tb_NoteName.Text + ".txt");
                 txtSave.Write(tb_NoteBox.Text);
                 txtSave.Close();
                 tb_NoteName.Clear();
@@ -48,7 +49,7 @@ namespace FishyNotes
             }
             catch (Exception E)
             {
-                MessageBox.Show("Something went wrong" + E.ToString(), "Save Failure");
+                MessageBox.Show("Something went wrong" + E.Message.ToString(), "Save Failure");
             }
 
         }
@@ -80,7 +81,7 @@ namespace FishyNotes
         {
             if (Min)
             {
-         
+                btn_Min.Text = "Hide";
                 tb_NoteBox.Show();
                 this.Height = 442;
                 Min = false;
@@ -88,6 +89,7 @@ namespace FishyNotes
             }
             else
             {
+                btn_Min.Text = "Show";
                 tb_NoteBox.Hide();
                 this.Height = 96;
                 Min = true;
