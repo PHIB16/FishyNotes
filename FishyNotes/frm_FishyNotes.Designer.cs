@@ -49,7 +49,6 @@
             // 
             this.trayMenu.Icon = ((System.Drawing.Icon)(resources.GetObject("trayMenu.Icon")));
             this.trayMenu.Text = "Fishy Notes";
-            this.trayMenu.Visible = true;
             this.trayMenu.DoubleClick += new System.EventHandler(this.trayMenu_DoubleClick);
             // 
             // frm_FishyNotes

@@ -25,9 +25,7 @@ namespace FishyNotes
 
         private void frm_Note_FormClosing(object sender, FormClosingEventArgs e)
         {
-            e.Cancel = true;
-            tb_NoteBox.Clear();
-            this.Hide();
+            this.Dispose();
 
         }
 

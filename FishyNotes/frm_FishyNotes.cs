@@ -18,11 +18,12 @@ namespace FishyNotes
         public frm_FishyNotes()
         {
             InitializeComponent();
-            Noteform = new frm_Note();
+            
         }
 
         private void btn_AddNote_Click(object sender, EventArgs e)
         {
+            Noteform = new frm_Note();
             this.Hide();
             Noteform.ShowDialog();
             this.Show();
@@ -55,7 +56,8 @@ namespace FishyNotes
         private void frm_FishyNotes_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = true;
-            this.Hide();
+            WindowState = FormWindowState.Minimized;
+            trayMenu.Visible = true;
 
         }
     }
