@@ -13,28 +13,34 @@ namespace FishyNotes
 {
     public partial class frm_Note : Form
     {
+        private Guid NoteID;
+
+        public Guid ID { get { return NoteID; } }
+
         private Boolean Min = false;
 
         private String DefaultText = "Enter note here";
 
-        public frm_Note()
+        private ReplaceTextDelegate ReplaceNote;
+        private RetrieveTextDelegate RetrieveNote;
+
+        public frm_Note(ReplaceTextDelegate pDelegate, RetrieveTextDelegate pTextDelegate)
         {
+            NoteID = Guid.NewGuid();
             InitializeComponent();
             tb_NoteBox.Text = DefaultText;
-        }
 
-        private void frm_Note_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            e.Cancel = true;
-            tb_NoteBox.Clear();
-            this.Hide();
-
+            ReplaceNote = pDelegate;
+            RetrieveNote = pTextDelegate;
         }
 
         private void btn_Discard_Click(object sender, EventArgs e)
         {
-            tb_NoteBox.Clear();
+           // DeleteNote(NoteID);
+            
         }
+        
+       
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
@@ -71,6 +77,8 @@ namespace FishyNotes
                 tb_NoteBox.Text = DefaultText;
 
             }
+            RetrieveNote(NoteID);
+
         }
 
         private void frm_Note_Load(object sender, EventArgs e)

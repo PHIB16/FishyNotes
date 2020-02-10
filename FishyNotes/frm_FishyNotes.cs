@@ -13,20 +13,40 @@ namespace FishyNotes
     public partial class frm_FishyNotes : Form
     {
 
+        private IDictionary<Guid, frm_Note> _notes = new Dictionary<Guid, frm_Note>();
+        
+        private NoteData noteData = new NoteData();
+
+        
         private frm_Note Noteform;
+
+
+
+        private DeleteNoteDelegate _DeleteNote;
+        private AddNoteDelegate _AddNote;
+        private RetrieveTextDelegate _RetrieveText;
+        private ReplaceTextDelegate _ReplaceText;
 
         public frm_FishyNotes()
         {
             InitializeComponent();
-            Noteform = new frm_Note();
+            _AddNote = noteData.AddNote;
+            _DeleteNote = noteData.RemoveNote;
+
+            _ReplaceText = noteData.ReplaceNoteText;
+            _RetrieveText = noteData.RetrieveNoteText;
+           
         }
 
+       
+        
         private void btn_AddNote_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Noteform.ShowDialog();
-            this.Show();
             
+            Noteform = new frm_Note(_ReplaceText,_RetrieveText);
+            _notes.Add(Noteform.ID, Noteform);
+            Noteform.Show();
+
         }
 
         private void frm_FishyNotes_SizeChanged(object sender, EventArgs e)

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates.cs" />
     <Compile Include="frm_FishyNotes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +59,9 @@
     <Compile Include="frm_Note.Designer.cs">
       <DependentUpon>frm_Note.cs</DependentUpon>
     </Compile>
+    <Compile Include="INotes.cs" />
+    <Compile Include="INoteText.cs" />
+    <Compile Include="NoteData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_FishyNotes.resx">

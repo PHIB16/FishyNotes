@@ -114,7 +114,6 @@
             this.Controls.Add(this.tb_NoteBox);
             this.Name = "frm_Note";
             this.Text = "frm_Note";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frm_Note_FormClosing);
             this.Load += new System.EventHandler(this.frm_Note_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

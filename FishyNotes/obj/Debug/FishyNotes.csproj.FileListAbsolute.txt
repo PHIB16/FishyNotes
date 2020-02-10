@@ -1,0 +1,22 @@
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csprojAssemblyReference.cache
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.exe.config
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.exe
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.pdb
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.frm_FishyNotes.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.frm_Note.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.Properties.Resources.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csproj.GenerateResource.cache
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csproj.CoreCompileInputs.cache
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.exe
+C:\Users\phib1_16\Downloads\FishyNotes-master\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.pdb
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csprojAssemblyReference.cache
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.exe
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.pdb
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.exe.config
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.exe
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\bin\Debug\FishyNotes.pdb
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.frm_FishyNotes.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.frm_Note.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.Properties.Resources.resources
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csproj.GenerateResource.cache
+C:\Users\phib1_16\Downloads\FishyNotes-master (1)\FishyNotes-master\FishyNotes\obj\Debug\FishyNotes.csproj.CoreCompileInputs.cache
